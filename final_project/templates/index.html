@@ -1,0 +1,198 @@
+\<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Profile page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    img {
+  border-radius: 50%;
+}
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#" >Aswin P J</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="nav-item" style="height: 100px;font-size: 120%;">
+          <a class="nav-link" href="#About">About Me</a>
+        </li>
+        <li class="nav-item" style="height: 100px;font-size: 120%;">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item"style="height: 100px;font-size: 120%;">
+          <a class="nav-link " href="#projects">Project</a>
+        </li>
+        <li class="nav-item" style="height: 100px;font-size: 120%;">
+          <a class="nav-link " href="#prof">Professional Experince</a>
+        </li>
+        <li class="nav-item" style="height: 100px;font-size: 120%;">
+          <a class="nav-link " href="#contact">Contact Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="height: 100px;font-size: 120%;">
+            Apps
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/wordle/" style="height: 100px;font-size: 120%;">Wordly</a>
+            <!-- <a class="dropdown-item" href="#">Another action</a> -->
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="/tic_tak/" style="height: 100px;font-size: 120%;">Tic Tac Toe</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="/blog/" style="height: 100px;font-size: 120%;">Blog</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="/employee/" style="height: 100px;font-size: 120%;">Employee</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="/todos/api/" style="height: 100px;font-size: 120%;">TODO</a>
+          </div>
+        </li>
+          
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Aswin P J</h1> 
+    <img src="https://pbs.twimg.com/profile_images/1420120817384390656/209m4R1H_400x400.jpg" class="rounded-circle" alt="Aswin"  width="200" height="200">    
+    <p><span>&#128222;9497047004</span> | <span>&#128231;aswinpjagadeesh@gmail.com</span> | <span>&#128197;14 Jul 1997</span>
+    </p>
+    <p> <a href="https://www.linkedin.com/in/aswin-p-j/"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a><a href="https://github.com/pjAswin"> <i class="fa fa-github" style="font-size:24px"></i></a></p>
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center" >    
+  <h3 id="About">About</h3><br>
+  <div class="row">
+    <p>B-TECH CSE Gradute from <a href="https://amrita.edu/"> Amrita school of engineering</a>. Have two year experince in <a href="https://www.tcs.com/">Tata Consultancy Services</a> . Currently Pursing
+      M-TECH in Cyber security and network from same College.
+    </p>
+  </div>
+</div></br>
+<footer class="container-fluid text-center"> 
+<h3 id="education">Education</h3><br>
+<div class="row">
+  <table border="1" id="career" class="table table-borderless">
+    <thead>
+    <tr>
+      <th>Year</th>
+      <th>Degree</th>
+      <th>Institute</th>
+      <th>GPA/Marks</th>
+    </tr>
+  </thead>
+    <tr>
+      <td>2021-</td>
+      <td id="para1">Master of Technology in Cybersecurity and Networks</td>
+      <td>Amrita School of Engineering , Amritapuri</td>
+      <td class="large">NA</td>
+    </tr>
+    <tr>
+      <td>2015-2019</td>
+      <td id="para1">Bachelor of Technology in Computer Science</td>
+      <td>Amrita School of Engineering , Amritapuri</td>
+      <td class="large">79.7%</td>
+    </tr>
+    <tr>
+      <td>2013-2015</td>
+      <td id="para1">Higher Secondary - Science</td>
+      <td>Govt Model higher secondary school, Kozhikode</td>
+      <td class="large">94%</td>
+    </tr>
+    <tr>
+      <td>2000-2013</td>
+      <td id="para1">High School</td>
+      <td>Ilahiya Higher Secondary School
+      </td>
+      <td class="large">95%</td>
+    </tr>
+  </table>
+</div>
+</footer></body><br>
+<div class="container-fluid bg-3 text-center"> 
+  <h3 id="projects">Project and Publication</h3><br>
+  <h4>Stereo-Vision Based System For Object Detection And
+    Recognition, IEEE  25 Apr 2019::</h4>
+    <p style="background-color:wheat;">This paper proposes a method for detecting and
+      recognizing the object using Stereo Vision, Scale-Invariant
+      Feature Transform (SIFT), and Fast library for Approximate
+      Nearest Neighbors (FLANN) concept with its
+      implementation on an embedded system.</p>
+   <h4>Is your child safe ?, SSR Project
+    Jan 2017 – May 2017</h4>
+    <p style="background-color:wheat;">Took a survey from parents of young children, prepared a
+      report based on the survey, and submitted it to
+      corresponding Govt authorities. Conducted an Awareness
+      Program on 'child abuse and the safety of children for
+      both parents and children.</p>
+  <h4>Student Performance Prediction System, Mini Project
+    2018</h4>
+    <p style="background-color:wheat;">Implemented a student performance prediction system
+      using a machine learning algorithm (linear regression
+      ).Internal marks, attendance, study hours, etc are taken as
+      parameters to predict their performance in end semester.</p>
+      <button class ="btn btn-primary btn-lg" onclick="document.location='/tic_tak/'">Tic Tac Toe</button>
+      <button class ="btn btn-primary btn-lg" onclick="document.location='/wordle/'">Wordle</button>
+      <button class ="btn btn-primary btn-lg" onclick="document.location='/blog/'">Blog</button>
+      <button class ="btn btn-primary btn-lg" onclick="document.location='/employee/'">Employee</button>
+      <button class ="btn btn-primary btn-lg" onclick="document.location='/todos/api/'">Todo</button>
+</div>
+<footer class="container-fluid text-center">
+    <h3 id="prof">Professional Experince</h3><br>
+    <h4>Assistant System Engineer, Tata Consultancy Services
+      2019 – 2021 | Chennai, India</h4>
+      <p>Worked in CITI Bank Project as L2 Production Support.</p>
+      <ul>
+        <li>Maintain 10 major Applications of CITI bank</li>
+        <li>Have Crucial roles in detecting major issues in
+          Production</li>
+        <li>Monitored Data flow and Worked on pipeline issues</li>
+        <li>Major role in Production deployment activities</li>
+        <li>Technology: MySQL, Tectia. Hue, Jenkins, Oracle DB</li>
+      </ul>
+    </footer></br>
+
+
+<footer class="container-fluid text-center">
+  <h2 id="contact"><strong><u><span>&#9743;To Contact Me</span></u></strong></h2>
+    <label>Name</label>
+    <input type="text">
+    <label>Email</label>
+    <input type="email">
+    <button>Submit</button>
+    <p style="font-family:courier;">I will contact you through provided mail, Thank you for visiting my page</p>
+</footer>
+
+</body>
+</html>
